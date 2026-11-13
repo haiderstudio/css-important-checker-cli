@@ -1,0 +1,30 @@
+/* A stylesheet that leans on !important. */
+.card {
+  color: red !important;
+  padding: 8px;
+}
+
+.btn {
+  margin: 0 ! important;
+  background: #06c;
+}
+
+.title {
+  Padding: 10px !IMPORTANT;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .sidebar {
+    width: 200px !important;
+  }
+}
+
+.alert {
+  color: red !important;
+  background: yellow !important;
+}
+
+:root {
+  --brand: #06c !important;
+}

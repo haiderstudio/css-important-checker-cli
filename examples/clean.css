@@ -1,0 +1,36 @@
+/* A clean stylesheet — no declaration uses !important. */
+/* The next line only mentions it in a comment:
+   color: red !important; */
+.header {
+  color: #111;
+  background: #fff;
+}
+
+.btn {
+  padding: 8px 16px;
+  color: #06c;
+}
+
+.btn:hover {
+  background: #eee;
+  color: #fff;
+}
+
+/* color and background-color are different properties. */
+.card {
+  color: red;
+  background-color: blue;
+}
+
+@media (min-width: 600px) {
+  .header {
+    font-size: 20px;
+    color: #222;
+  }
+}
+
+/* A string holding !important is not a declaration using it: */
+.quote::before {
+  content: "!important";
+  color: #333;
+}
